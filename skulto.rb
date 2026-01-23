@@ -1,5 +1,5 @@
 class Skulto < Formula
-  desc "an offline-first tool for syncing and managing agent skills"
+  desc "Offline-first tool for syncing and managing agent skills"
   homepage "https://github.com/asteroid-belt/skulto"
   version "1.0.1"
 
@@ -8,7 +8,7 @@ class Skulto < Formula
       url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.1/skulto-v1.0.1-darwin-amd64.tar.gz"
       sha256 "d5b168012e77926bb93b037c6c9c140660fcfb0c1f5dfc5543217b931f21b112"
     elsif Hardware::CPU.arm?
-        url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.1/skulto-v1.0.1-darwin-arm64.tar.gz"
+      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.1/skulto-v1.0.1-darwin-arm64.tar.gz"
       sha256 "9521a4fa02b4ae0fa517be33e219501033a27e6b0cbb7bfe497cf44c566c4a86"
     end
   end
@@ -30,6 +30,6 @@ class Skulto < Formula
   end
 
   test do
-    assert_match /#{version.to_s}/, `skulto --version`.chomp
+    assert_match(/#{version}/, `skulto --version`.chomp)
   end
 end
