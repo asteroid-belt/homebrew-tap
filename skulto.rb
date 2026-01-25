@@ -1,25 +1,25 @@
 class Skulto < Formula
   desc "Offline-first tool for syncing and managing agent skills"
   homepage "https://github.com/asteroid-belt/skulto"
-  version "1.0.3"
+  version "1.0.4"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.3/skulto-v1.0.3-darwin-amd64.tar.gz"
-      sha256 "a76f803fd950a70fb8982a56ab2cbf8d0624ede55cdba1d1bf926416f0317eff"
+      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.4/skulto-v1.0.4-darwin-amd64.tar.gz"
+      sha256 "86260c90717e05907d2ca45772b870626e06309e69afbf977f1beeb834a7d01e"
     elsif Hardware::CPU.arm?
-      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.3/skulto-v1.0.3-darwin-arm64.tar.gz"
-      sha256 "3e9c6c6fc8d4cf31b9474dfec6e4f724a3c6ea0dd9d0152663f11fc9750e92c9"
+      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.4/skulto-v1.0.4-darwin-arm64.tar.gz"
+      sha256 "8d37db593e2b32b17755b6223aeee0511ff819f997316304c7538d5df8a92956"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.3/skulto-v1.0.3-linux-amd64.tar.gz"
-      sha256 "ccd8d60e590b83f6b2518a9cdfab04c8f6761f985fd011b06ee426f45f14458c"
+      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.4/skulto-v1.0.4-linux-amd64.tar.gz"
+      sha256 "eddd7c454f5b757d71146a67176ce7ed83d086bfeff1187b9b97507f9b505c85"
     elsif Hardware::CPU.arm?
-      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.3/skulto-v1.0.3-linux-arm64.tar.gz"
-      sha256 "f3ffcf7c8e69210e9d32eae074ac78e81eec07533758249009c2bd553e27c109"
+      url "https://github.com/asteroid-belt/skulto/releases/download/v1.0.4/skulto-v1.0.4-linux-arm64.tar.gz"
+      sha256 "bb6961b46b96993d49d876fee8160c78cbbe802755685c909cf3f86e03af4baa"
     end
   end
 
