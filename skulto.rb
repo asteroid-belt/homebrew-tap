@@ -24,7 +24,7 @@ class Skulto < Formula
   end
 
   def install
-    %w[skulto, skulto-mcp].each do |exe|
+    %w[skulto skulto-mcp].each do |exe|
       bin.install exe
     end
   end
