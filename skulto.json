@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "skills": {
+    "aws-agentic-ai": "zxkane/aws-skills",
+    "homebrew-formula-updater": "asteroid-belt/skills"
+  }
+}
